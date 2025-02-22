@@ -1,38 +1,36 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Program2 : MonoBehaviour
+public class ChangeAppearance : MonoBehaviour
 {
-    public GameObject cube;
-    public GameObject sphere;
-    public GameObject plane;
-    public Material newMaterial;
-    public Texture newTexture;
+    public GameObject cube, sphere, plane;  // Assign objects in the Inspector
+    public Material newCubeMaterial, newSphereMaterial, newPlaneMaterial;  // New materials
+    public Texture newCubeTexture, newSphereTexture, newPlaneTexture;  // New textures
 
-    public Button cubeButton;
-    public Button sphereButton;
-    public Button planeButton;
-
-    void Start()
+    // Function to change Cube appearance
+    public void ChangeCubeAppearance()
     {
-        cubeButton.onClick.AddListener(ChangeCubeMaterial);
-        sphereButton.onClick.AddListener(ChangeSphereTexture);
-        planeButton.onClick.AddListener(ChangePlaneMaterial);
+        Renderer cubeRenderer = cube.GetComponent<Renderer>();
+        cubeRenderer.material = newCubeMaterial;  // Change Material
+        cubeRenderer.material.mainTexture = newCubeTexture;  // Change Texture
+        cubeRenderer.material.color = Color.red;  // Change Color
     }
 
-    void ChangeCubeMaterial()
+    // Function to change Sphere appearance
+    public void ChangeSphereAppearance()
     {
-        cube.GetComponent<Renderer>().material = newMaterial;
+        Renderer sphereRenderer = sphere.GetComponent<Renderer>();
+        sphereRenderer.material = newSphereMaterial;
+        sphereRenderer.material.mainTexture = newSphereTexture;
+        sphereRenderer.material.color = Color.green;
     }
 
-    void ChangeSphereTexture()
+    // Function to change Plane appearance
+    public void ChangePlaneAppearance()
     {
-        sphere.GetComponent<Renderer>().material.mainTexture = newTexture;
-    }
-
-    void ChangePlaneMaterial()
-    {
-        plane.GetComponent<Renderer>().material = newMaterial;
-        plane.GetComponent<Renderer>().material.mainTexture = newTexture;
+        Renderer planeRenderer = plane.GetComponent<Renderer>();
+        planeRenderer.material = newPlaneMaterial;
+        planeRenderer.material.mainTexture = newPlaneTexture;
+        planeRenderer.material.color = Color.blue;
     }
 }
