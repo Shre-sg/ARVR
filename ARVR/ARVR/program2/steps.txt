@@ -1,0 +1,19 @@
+Open Unity and create a 3D Scene.
+In Hierarchy, create an Empty GameObject (Controller) logicmanager. add the script from the asset copy
+In Hierarchy, create:
+Cube (cube)
+Sphere (sphere)
+Plane (plane)
+Add UI>Legacy>buttons : 3
+clickon Button : add text{cubebut} do same for all 3 buttons
+drag and drop manager and changeappearance > changecubeappear do same for all 3 buttons	
+
+In Assets, create a C# Script (ChangeAppearance).
+Attach ChangeAppearance script to Controller.
+In Assets, create 3 Materials (newCubeMaterial, newSphereMaterial, newPlaneMaterial).
+Create 3 Textures (newCubeTexture, newSphereTexture, newPlaneTexture).
+In Inspector, assign:
+cube, sphere, plane to the script.
+newCubeMaterial, newSphereMaterial, newPlaneMaterial.
+newCubeTexture, newSphereTexture, newPlaneTexture.
+Click Play to see the color, material, and texture changes

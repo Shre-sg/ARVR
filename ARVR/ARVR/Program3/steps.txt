@@ -1,0 +1,10 @@
+1. Create a new scene on unnity
+2. Download tiger asset from asset store and Import tiger asset to project( Winfow->Package Manager->Download and Import)
+3. Create a plane and place tigeridle on it.
+4. Create a new animator controller by right clicking in asset window->create->animation->animation controller.
+
+4. Go to animator window and take walk and run components from tiger asset folder and connect them.
+5. Click on the arrow from walk to run and uncheck has exit time and create a new trigger "run" in the left side and select condition as run in the inspector window for that transition.
+6. create a tigerrun script and add that as component to tigeridle
+7. Create a canvas in hierarchy followed by button legacy. Adjust its position by navigating to game view. 
+8. Click on OnClick() inisde inpsector window for the button and select runtime only, attach the tigeridle object from hierarchy window and select the script name (tiger or else tigerrun etc.) and choose therun function or the function name where we set the trigger inside the script. (tigerrun.therun).

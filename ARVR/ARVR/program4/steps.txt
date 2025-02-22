@@ -1,0 +1,8 @@
+1. Create a terrain in hierarchy window
+2. Add grass asset terrain tools & starter pack FPC 
+3. Click on the terrain and go to inspector window-> select the option to {paint the terrain} and choose raise or lower terrain from the dropdown which appears below.
+4. Select Paint texture from the dropdown-> edit terrain layers-> create layer-> select the grass asset you just added to the assets section.
+5. select paint tress-> edit tress drop ->terrian tools >unity terrain tools > tree occlusion > scot tress
+6. go to > starter > FPC > prefab > playercapsule drag and drop
+7. cretae a camera 
+8. asset > monfab > paste code drop it on the playercapsule 

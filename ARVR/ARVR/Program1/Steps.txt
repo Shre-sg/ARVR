@@ -1,0 +1,11 @@
+Open Unity and create a 3D Scene.
+In Hierarchy, create an Empty GameObject (Controller).
+In Hierarchy, create:
+Cube (myCube)
+Sphere (mySphere)
+Plane (myPlane)
+In Assets, create a C# Script (AdvancedTransform).
+Attach the script to Controller. (in controller -> add component-> drag and drop script)
+tap on controller. drag all the cube, sphere etc drop it into to that.
+In Inspector, assign myCube, mySphere, and myPlane to the script.
+Click Play and use:
