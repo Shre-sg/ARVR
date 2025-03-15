@@ -1,0 +1,12 @@
+import the truck assest 
+import vechical assential sounds assets 
+add the truck obj
+go to window > sequensing > timeline
+create a new timeline save it in assets
+top right in timeline tab there is "+" button
+press and add animation and sound 
+add one sound from assets 
+select truck game obj and lock it
+drag and drop the truck to the animation timeline
+press rexord move the trust postion for 2 seconds 
+done play
