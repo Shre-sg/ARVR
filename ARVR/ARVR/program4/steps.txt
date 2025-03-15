@@ -4,5 +4,5 @@
 4. Select Paint texture from the dropdown-> edit terrain layers-> create layer-> select the grass asset you just added to the assets section.
 5. select paint tress-> edit tress drop ->terrian tools >unity terrain tools > tree occlusion > scot tress
 6. go to > starter > FPC > prefab > playercapsule drag and drop
-7. cretae a camera 
-8. asset > monfab > paste code drop it on the playercapsule 
+7. delete the main camera and add a new camera under capsule
+8. go to startpack, FPS, ainmation scprit drag and drop it on capsule
