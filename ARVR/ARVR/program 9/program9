@@ -1,0 +1,15 @@
+import thirdperson asset to peoject
+add the prebaf > thirdperson to the scene
+add the plane 
+add 5 cubes move them around
+makessure thier box collider (istrigger is on)
+import 2 scripts cubecollier and Gamemanager
+drag and drop the script cube collier to the all cube 
+drag and drop the gamemanager script on the thirdperson model
+add 2 legacy button rename them to score and time 
+drag and drop this button on the thirdperson model gamescript drop box 
+play run it works
+
+now saveas the scene in assets >scenes
+go to build or build setting add all the scene then close it done 
+
