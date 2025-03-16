@@ -1,0 +1,31 @@
+import unity chan
+delete all its aimation properties
+click on unity chan 
+go to window > animation > animation  (save it in assets in the name "animation only")
+change it seconds
+tap on add property > transform > position
+record and change the position as such time goes
+see in asset there unitychan animation state file is present 
+open it create new state, make it default 
+make trasition such like
+	entry > newstate > end
+	entry > animation > end
+	anystate > animation
+select unity chan 
+	add compoent Vid player
+	add component audio source
+import vid and aud into assets add them to it 
+	turn off playONwake
+	change alpha to 0.7
+	change Render mode to camera Far Plane
+		camera to main camera
+add me button
+	ui > button
+	add component > new scprit > copy paste
+	add all the compoenents to that button 
+	like animator : unitychan (Animation)
+	     Play button : Button
+	     Sound : unitychan aud
+	     player : unitychan Vid
+	     
+	      
