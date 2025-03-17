@@ -10,3 +10,17 @@ select truck game obj and lock it
 drag and drop the truck to the animation timeline
 press rexord move the trust postion for 2 seconds 
 done play
+
+
+or 
+
+create 2 empty obj, logic manager, audio manager
+drag and drop logic script to logicmanager, audio to audiomanager,
+create a empty obj called timeline manager select it then go window sequecing> timeline;
+add animation track, audio track, drag and drop truck to animation track and audio to audiotrack
+and record and postion change.
+click on logicmanager drag and drop timelinemanager and audiomanager
+make sure they under target image
+then in target image there is "+" on ontarget ,drag and drop the logicmanager choose func truckcontroller.play
+then in target image there is "+" on ontargetlost ,drag and drop the logicmanager choose func truckcontroller.stop
+done
