@@ -1,3 +1,4 @@
+script is  not needed
 1. Create a terrain in hierarchy window
 2. Add grass asset terrain tools & starter pack FPC 
 3. Click on the terrain and go to inspector window-> select the option to {paint the terrain} and choose raise or lower terrain from the dropdown which appears below.
